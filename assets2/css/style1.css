@@ -1,0 +1,16 @@
+.buttons button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.faq{
+    border: 1px solid rgb(221, 213, 213);
+    border-bottom: 1px solid black;
+}

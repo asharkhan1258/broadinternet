@@ -1,0 +1,249 @@
+
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .pull-left{
+  float: right;
+}
+
+.rtl .pull-right{
+  float: left;
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu{
+  float: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .main-header .logo-box{
+  float: right;
+  margin-right: 0px;
+  margin-left: 150px;
+}
+
+.rtl .main-header .nav-right .support-box{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .main-header .nav-right .search-box-outer{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .main-header .nav-right .support-box h6{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .main-header .nav-right .support-box h6 i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .banner-carousel .content-box{
+  text-align: right;
+}
+
+.rtl .search-field .search-area .form-group .icon{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .content_block_one .content-box{
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.rtl .content_block_one .content-box .inner .single-item{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .content_block_one .content-box .inner .single-item .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .list-style-one li{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .list-style-one li:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .feature-block-one .inner-box .content-box{
+  text-align: right;
+}
+
+.rtl .content_block_two .content-box .single-item{
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .content_block_two .content-box .single-item .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .content_block_two .content-box .text{
+  text-align: right;
+}
+
+.rtl .content_block_three .content-box{
+  text-align: right;
+}
+
+.rtl .chooseus-section .bg-layer{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .chooseus-section .sec-title{
+  text-align: right;
+}
+
+.rtl .project-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .content_block_five .content-box{
+  text-align: right;
+}
+
+.rtl .testimonial-section .sec-title{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box{
+  padding-left: 0px;
+  padding-right: 90px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box .author-thumb{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .cta-section{
+  direction: ltr;
+}
+
+.rtl .content_block_six .content-box{
+  text-align: right;
+}
+
+.rtl .content_block_six .content-box .support-box{
+  padding-left: 0px;
+  padding-right: 90px;
+}
+
+.rtl .content_block_six .content-box .support-box .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .news-block-one .inner-box .lower-content{
+  text-align: right;
+}
+
+.rtl .news-block-one .inner-box .lower-content .post-info li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+.rtl .news-block-one .inner-box .lower-content .post-info li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .subscribe-section .inner-container .text{
+  margin-right: 0px;
+  margin-left: 70px;
+  text-align: right;
+}
+
+.rtl .subscribe-section .inner-container .form-inner{
+  margin-left: 0px;
+  margin-right: -50px;
+}
+
+.rtl .main-footer .footer-top{
+  text-align: right;
+}
