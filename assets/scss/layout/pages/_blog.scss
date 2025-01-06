@@ -1,0 +1,242 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.2 blog css start
+/*----------------------------------------*/
+.tp-blog{
+    &__space{
+        padding-top: 290px;
+        padding-bottom: 250px;
+        @media #{$lg}{
+            padding-bottom: 210px;
+        }
+    }
+    &__item{
+        &:hover{
+            & .tp-blog__thumb{
+                & img{
+                    transform: scale(1.1) rotate(-2deg);
+                }
+            }
+            & .tp-blog__link{
+                & a{
+                    background-color: var(--tp-theme-1);
+                    color: var(--tp-common-white);
+                    border-color: var(--tp-theme-1);
+                }
+            }
+            & .tp-blog__category{
+                & span{
+                    background-color: var(--tp-theme-2);
+                    color: var(--tp-common-black);
+                }
+            }
+        }
+    }
+    &__thumb{
+        & img{
+            transition: .9s;
+            width: 100%;
+        }
+    }
+    &__category{
+        & span{
+            height: 36px;
+            background-color: var(--tp-theme-1);
+            padding: 0px 16px;
+            line-height: 36px;
+            display: inline-block;
+            color: var(--tp-common-white);
+            font-weight: 700;
+            font-size: 12px;
+            text-align: right;
+            letter-spacing: 0.135em;
+            text-transform: uppercase;
+            transition: .3s;
+            & svg{
+                margin-right: 5px;
+                margin-top: -2px;
+            }
+        }
+    }
+    &__content-box{
+        border: 1px solid #EBEBEB;
+        background-color: var(--tp-common-white);
+        padding: 20px 30px 40px 30px;
+        @media #{$xs}{
+            padding: 20px 15px 40px 15px;
+        }
+    }
+    &__meta{
+        padding-bottom: 15px;
+        border-bottom: 1px solid #E8EBED;
+        margin-bottom: 20px;
+        & span{
+            font-weight: 400;
+            font-size: 15px;
+            color: rgba($color: #000000, $alpha: 0.6); 
+            @media #{$xs}{
+                font-size: 13px;
+            }
+            & svg{
+                margin-right: 5px;
+                margin-top: -4px;
+            }
+        }
+    }
+    &__title-sm{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+        color: var(--tp-common-black);
+        &:hover{
+            color: var(--tp-theme-1);
+        }
+    }
+    &__link{
+        margin-top: -30px;
+        & a{
+            height: 56px;
+            width: 56px;
+            line-height: 56px;
+            border-radius: 50%;
+            border: 1px solid #EBEBEB;
+            border-radius: 60px;
+            background-color: var(--tp-common-white); 
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            color: var(--tp-theme-1);
+            transition: .3s;
+        }
+    }
+    &__content-main{
+        margin: 0px 20px;
+        margin-top: -80px;
+        z-index: 9;
+        position: relative;
+    }
+}
+.tp-blog-3{
+    &__item{
+        &:hover{
+            & .tp-blog-3__thumb{
+                & img{
+                    transform: scale(1.1) rotate(-2deg);
+                }
+                & span{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    &__meta{
+        margin-bottom: 20px;
+        & span{
+            font-weight: 400;
+            font-size: 15px;
+            color: rgba($color: #535353, $alpha: 0.6);
+            margin-right: 20px;
+            @media #{$lg,$xs}{
+                font-size: 14px;
+            }
+            & svg{
+                color: var(--tp-theme-2);
+                transform: translateY(-2px);
+                margin-right: 4px;
+            }
+        }
+    }
+    &__content-wrap{
+        padding: 30px;
+        box-shadow: 0px 13px 26px #EEF0F8;
+    }
+    &__title-sm{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 35px;
+        color: var(--tp-common-black);
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #EBEBEB;
+        & a{
+            &:hover{
+                color: var(--tp-theme-1);
+            }
+        }
+    }
+    &__link{
+        & a{
+            font-weight: 400;
+            font-size: 16px;
+            color: var(--tp-theme-2);
+            transition: .3s;
+            & i{
+                transform: translateY(2px);
+                margin-left: 16px;
+            }
+            &.child-1{
+                position: relative;
+                &::after{
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: var(--tp-theme-2);
+                    content: '';
+                    transition: .3s;
+                }
+            }
+            &.child-2{
+                font-size: 20px;
+                color: var(--tp-common-black);
+            }
+            &:hover{
+                color: var(--tp-theme-1);
+                &.child-1{
+                    &::after{
+                        color: var(--tp-theme-1);
+                    }
+                }
+            }
+        }
+    }
+    &__thumb{
+        & span{
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            background-color: var(--tp-common-white);
+            border-radius: 20px;
+            padding: 8px;
+            padding-right: 15px;
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s;
+            & img{
+                margin-right: 10px;
+            }
+            & i{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                text-transform: uppercase;
+                color: var(--tp-common-black);
+                margin-bottom: 0;
+            }
+        }
+        & img{
+            transition: .7s;
+        }
+    }
+    &__bg-shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #FCF8F7;
+        z-index: -1;
+    }
+}

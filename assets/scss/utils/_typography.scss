@@ -1,0 +1,24 @@
+// font url
+
+$font-url: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet';
+
+// font family
+$font-family: (
+    'ff': (
+        'body': "'DM Sans', sans-serif",
+        'heading': "'Mulish', sans-serif",
+        'p': "'DM Sans', sans-serif",
+        'fontawesome': '"Font Awesome 6 Pro"',
+        'mulish': "'Mulish', sans-serif",
+    )
+);
+
+// font size
+$font-size: (
+    'fz': (
+        'body': 14px,
+        'p': 16px,
+    )
+);
+
+

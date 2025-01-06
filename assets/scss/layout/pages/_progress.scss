@@ -1,0 +1,79 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.16 progress css start
+/*----------------------------------------*/
+
+.tp-progress{
+    &__bg-shape{
+        background-size: cover;
+        background-position: center;
+    }
+    &__item{
+        margin-left: 15px;
+    }
+    &__canva{
+        height: 90px;
+        width: 90px;
+        background: var(--tp-common-white);
+        text-align: center;
+        line-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 50%;
+        margin-right: 50px;
+        @media #{$lg}{
+            margin-right: 30px;
+        }
+        @media #{$xs}{
+            margin-right: 30px;
+        }
+        & input {
+            color: var(--tp-common-black) !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+            font-family: var(--tp-ff-mulish) !important;
+        }
+    }
+    &__space{
+        padding-top: 380px;
+        padding-bottom: 120px;
+        margin-top: -285px;
+        @media #{$md}{
+            margin-top: 0;
+            padding-top: 120px;
+        }
+    }
+    &__content{
+        & p{
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 29px;
+            color: #565F67;
+            @media #{$lg}{
+                font-size: 14px;
+                line-height: 24px;
+            }
+            @media #{$xs}{
+                font-size: 14px;
+                line-height: 19px;
+            }
+        }
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--tp-common-black);
+        @media #{$lg,$xs}{
+            font-size: 17px;
+        }
+    }
+}
+.tp-progress__content {
+    @media #{$sm}{
+        margin-right: 50px;
+    }
+}

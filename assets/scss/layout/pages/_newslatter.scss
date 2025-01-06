@@ -1,0 +1,81 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.13 newslatter css start
+/*----------------------------------------*/
+
+.tp-newslatter{
+    &__bg{
+        padding-top: 110px;
+        padding-bottom: 145px;
+    }
+    &__title-sm{
+        font-weight: 700;
+        font-size: 44px;
+        text-transform: capitalize;
+        color: var(--tp-common-white);
+        @media #{$lg}{
+            font-size: 35px;
+        }
+    }
+    &__title-box{
+        @media #{$md,$xs}{
+            margin-bottom: 30px;
+        }
+    }
+    &__input{
+        & input{
+            background: var(--tp-theme-1);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            border-radius: 40px;
+            height: 77px;
+            padding-left: 45px;
+            padding-right: 225px;
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: capitalize;
+            color: var(--tp-common-white);
+            @media #{$xs}{
+                padding: 0px 45px;
+                margin-bottom: 20px;
+            }
+            @include placeholder{
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: capitalize;
+                color: var(--tp-common-white);  
+            }
+            &:focus{
+                border-color: rgba(255, 255, 255, 0.16);
+            }
+        }
+    }
+    &__btn{
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+        line-height: 0;
+        @media #{$xs}{
+            position: static;
+            transform: translateY(0%);
+
+        }
+    }
+}
+
+.tp-newslatter-3{
+    &__customize{
+        margin-top: -75px;
+        position: relative;
+        z-index: 9;
+        & .tp-newslatter__bg{
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 55px 40px;
+        }
+        & .tp-newslatter__title-sm{
+            font-size: 34px;
+        }
+    }
+}

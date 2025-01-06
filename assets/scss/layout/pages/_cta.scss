@@ -1,0 +1,164 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.9 cta css start
+/*----------------------------------------*/
+
+.tp-cta{
+    &__min-height{
+        min-height: 175px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__left-box{
+        padding: 50px 40px;
+        @media #{$xs}{
+            padding: 50px 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    &__right-box{
+        padding: 20px 70px;
+        @media #{$xs}{
+            padding: 50px 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    &__mt{
+        margin-top: -120px;
+    }
+    &__icon{
+        margin-right: 45px;
+        @media #{$xl}{
+            margin-right: 35px;
+        }
+        @media #{$xs}{
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        @media #{$xs}{
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 22px;
+        color: var(--tp-common-white);
+        height: 62px;
+        line-height: 62px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 66.5px;
+        padding: 0px 25px;
+        @media #{$xs}{
+            font-size: 14px;
+            padding: 0px 25px;
+        }
+        & a{
+            text-decoration: underline;
+        }
+    }
+    &__right-icon{
+        margin-right: 30px;
+        @media #{$xs}{
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        @media #{$sm}{
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
+    &__right-content{
+        @media #{$xs}{
+            text-align: center;
+        }
+        @media #{$xs}{
+            text-align: left;
+        }
+        & span{
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: var(--tp-common-white);
+            display: block;
+            padding-bottom: 10px;
+            @media #{$xs}{
+                font-size: 14px;
+                padding-bottom: 0;
+            }
+        }
+        & a{
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: var(--tp-common-white);
+            @media #{$xs}{
+                font-size: 14px;
+            }
+        }
+    }
+    &__transparent{
+        position: absolute;
+        left: 0;
+        right: 0;
+        @media #{$lg,$md,$xs}{
+            position: static;
+        }
+    }
+}
+.tp-cta-3{
+    &__bg{
+        background-color: var(--tp-theme-1);
+        padding: 50px 65px;
+        @media #{$xs}{
+            padding: 50px 20px;
+        }
+    }
+    &__title-sm{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: var(--tp-common-white);
+        margin-bottom: 0;
+        @media #{$md,$xs}{
+            margin-bottom: 30px;
+        }
+    }
+    &__offer{
+        margin-right: 35px;
+    }
+    &__offer-text{
+        & span{
+            display: block;
+            font-weight: 500;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.79);
+        }
+        & a{
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: var(--tp-common-white);
+        }
+    }
+    &__btn{
+        margin-left: 75px;
+        @media #{$md,$xs}{
+            margin-left: 0;
+        }
+    }
+    &__offer-shape{
+        position: absolute;
+        top: 0%;
+        right: -10%;
+    }
+    &__left-shape{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

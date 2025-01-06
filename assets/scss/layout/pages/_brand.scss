@@ -1,0 +1,90 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.3 brand css start
+/*----------------------------------------*/
+
+.tp-brand{
+    &__transparent{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: -65px;
+    }
+    &__title-sm{
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #475467;
+        background-color: var(--tp-common-white);
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        padding: 0px 35px;
+        @media #{$xs}{
+            padding: 0;
+        }
+    }
+    &__bg{
+        background-color: var(--tp-common-white);
+        max-width: 1295px;
+        margin: 0 auto;
+        padding: 70px 50px 80px 50px;
+    }
+    &__title-box{
+        position: relative;
+        margin: 0px 45px;
+        margin-bottom: 50px;
+        @media #{$xs}{
+            margin: 0px 0px;
+            margin-bottom: 50px;
+        }
+        &::after{
+            position: absolute;
+            top: 12px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #D9D9D9;
+            content: "";
+        }
+    }
+    &__item{
+        text-align: center;
+        cursor: pointer;
+        & span{
+            color: var(--tp-common-black);
+            transition: .3s;
+        }
+        &:hover{
+            & span{
+                color: var(--tp-theme-1);
+            }
+        }
+    }
+}
+
+.tp-brand-3{
+    &__bg{
+        background-color: #FFF4EF;
+        padding: 80px 0;
+    }
+    &__shape{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.tp-brand-2__active{
+    & .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        transition-property: transform;
+        box-sizing: content-box;
+        align-items: center;
+    }
+}

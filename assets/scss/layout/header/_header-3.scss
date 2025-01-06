@@ -1,0 +1,139 @@
+@use '../../utils' as *;
+/*----------------------------------------*/
+/*  3.3 Header Style 3
+/*----------------------------------------*/
+
+.tp-header-top-3{
+    &__customize{
+        & .tp-header-top__left-info{
+            & ul{
+                & li{
+                    color: var(--tp-common-white);
+                    & a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        & .tp-header-top__value > ul > li > a{
+            color: var(--tp-common-white);
+            & span{
+                & svg{
+                    color: var(--tp-common-white);
+                }
+            }
+        }
+        & .tp-header-top__value ul li ul.tp-header-top__value-submenu{
+            text-align: left;
+        }
+    }
+}
+
+.tp-header-top-3{
+    &__right-wrap{
+        & > ul{
+            & > li{
+                display: inline-block;
+                list-style-type: none;
+                padding-left: 20px;
+                margin-left: 20px;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 13px;
+                    left: 0;
+                    width: 1px;
+                    height: 20px;
+                    background-color: #172451;
+                }
+                &:first-child{
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &__calander{
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        color: var(--tp-common-white);
+        position: relative;
+        & svg{
+            transform: translateY(-2px);
+            margin-right: 4px;
+        }
+    }
+    &__social{
+        & li{
+            display: inline-block;
+            list-style-type: none;
+            & a{
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.6);
+                margin: 0px 7px;
+                &:hover{
+                    color: var(--tp-theme-2);
+                }
+            }
+        }
+    }
+}
+
+
+.tp-header-3{
+    &__transparent{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    &__logo-bg{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    &__logo{
+        & img{
+            position: absolute;
+            z-index: 9;
+            top: 20px;
+            left: 30px;
+        }
+    }
+    &__logo-main{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__customize{
+        & .tp-header-main__menu nav > ul > li{
+            margin: 0px 28px;
+        }
+        & .tp-header-main__menu nav > ul > li:nth-child(2) {
+            margin-right: 30px;
+            margin-left: 15px;
+        }
+        & .tp-header-main__menu nav ul li:last-child {
+            margin-right: 0;
+        }
+        & .tp-header-top__lang > ul > li ul.tp-header-top__lang-submenu{
+            text-align: left;
+        }
+    }
+    &__lg-mob-space{
+        @media #{$lg,$md,$xs}{
+            padding: 10px 30px;
+        }
+    }
+}
+
+.tp-header-top-3{
+    &__border{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+

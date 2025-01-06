@@ -1,0 +1,137 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.10 faq css start
+/*----------------------------------------*/
+.tp-faq-2{
+    &__title-shape{
+        position: absolute;
+        right: 14%;
+        top: 26%;
+        @media #{$lg}{
+            right: 43%;
+            top: 37%;
+        }
+        @media #{$md}{
+            right: 33%;
+        }
+        & svg{
+            animation: section-animation 4s infinite;
+        }
+    }
+    &__right-img{
+        position: absolute;
+        bottom: -1px;
+        right: 215px;
+        @media #{$xxxl}{
+            right: 60px;
+        }
+        @media #{$xxl}{
+            right: 5px;
+        }
+        @media #{$xl}{
+            bottom: -70px;
+            right: -50px;
+            transform: scale(0.8);
+        }
+        @media #{$lg}{
+            position: static;
+            text-align: center; 
+            margin-bottom: 60px;
+        }
+    }
+    &__sub-img{
+        position: absolute;
+        right: 0;
+        top: 60px;
+        animation: tptranslateY2 2s forwards infinite alternate;
+    }
+}
+.tp-faq-inner{
+    &__subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--tp-theme-2);
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+    &__customize{
+        & .tp-custom-accordion .accordion-buttons{
+            padding: 38px 28px;
+            &:hover{
+                color: var(--tp-theme-1);
+            }
+        }
+        & .tp-custom-accordion .accordion-buttons::after{
+            top: 38px;
+        }
+        & .tp-custom-accordion .accordion-buttons:not(.collapsed){
+            background-color: transparent;
+            color: var(--tp-common-black);
+            &:hover{
+                color: var(--tp-theme-1);
+            }
+        }
+        & .tp-custom-accordion .accordion-body{
+            border-top: 1px solid rgba($color: #0052CC, $alpha: 0.1);
+            margin: 0px 20px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        & .tp-custom-accordion .accordion-buttons:not(.collapsed)::after {
+            color: var(--tp-common-black);
+        }
+    }
+    &__tab-btn{
+        @media #{$md}{
+            margin-bottom: 70px;
+        }
+        @media #{$xs}{
+            margin-bottom: 40px;
+        }
+        & .nav-tab{
+            margin-right: 15px;
+            @media #{$md,$xs}{
+                margin-right: 0px;
+            }
+            & button{
+                width: 100%;
+                background-color: rgba($color: #f7f7f7, $alpha: 0.5);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                height: 60px;
+                line-height: 60px;
+                padding: 0px 20px;
+                border-radius: 5px;
+                font-weight: 600;
+                font-size: 18px;
+                color: #4D505C;
+                transition: .3s;
+                &:hover{
+                    background-color: var(--tp-theme-1);
+                    color: var(--tp-common-white);
+                    & i{
+                        color: var(--tp-common-white);
+                    }
+                }
+                & i{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #4D505C;
+                    transition: .3s;
+                }
+                &.active{
+                    background-color: var(--tp-theme-1);
+                    color: var(--tp-common-white);
+                    & i{
+                        color: var(--tp-common-white);
+                    }
+                }
+            }
+        }
+    }
+}

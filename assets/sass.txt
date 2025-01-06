@@ -1,0 +1,1 @@
+sass --watch "C:\Users\Shahnewaz Sakil\Dropbox\Farhan Firoz\youlink\assets\scss\main.scss":"C:\Users\Shahnewaz Sakil\Dropbox\Farhan Firoz\youlink\assets\css\main.css"

@@ -1,0 +1,101 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  2.12 Accordion
+/*----------------------------------------*/
+
+.tp-custom-accordion {
+    position: relative;
+    z-index: 2;
+    & .accordion-items {
+        margin-bottom: 20px;
+        background-color: var(--tp-common-white);
+        overflow: hidden;
+        border-radius: 30px;
+        &.tp-faq-active{
+            border-radius: 28px 28px 10px 10px;
+        }
+    }
+    & .accordion-buttons {
+        position: relative;
+        width: 100%;
+        padding: 18px 28px;
+        text-align: left;
+        padding-right: 90px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: var(--tp-common-black);
+        @media #{$sm}{
+            padding: 10px 28px;   
+        }
+        &:not(.collapsed){
+            background-color: var(--tp-theme-1);
+            color: var(--tp-common-white);
+            border-radius: 30px;
+            &::after{
+                color: var(--tp-common-white);
+            }
+        }
+        &::after {
+            position: absolute;
+            content: "\f068";
+            font-family: 'Font Awesome 5 Pro';
+            background-image: none;
+            top: 18px;
+            right: 30px;
+            width: auto;
+            height: auto;
+            font-weight: 700;
+            font-size: 16px;
+            opacity: 1;
+            color: var(--tp-common-black);
+            text-align: center;
+            @media #{$xs}{
+                top: 20px;
+                right: 25px;
+            }
+            @media #{$sm}{
+                top: 10px;
+            }
+        }
+
+        &.collapsed {
+            &::after {
+                content: '\f067';
+            }
+        }
+    }
+    & .collapsed {
+        border-radius: 30px 30px 30px 30px;
+        position: relative;
+        z-index: 99;
+    }
+    & .accordion-body {
+        position: relative;
+        background-color: var(--tp-common-white);
+        padding: 23px 30px;
+        z-index: 1;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #707480;
+        border-radius: 0px 0px 10px 10px;
+        @media #{$xs}{
+            font-size: 15px;
+        }
+    }
+}
+.tp-service-details-faq{
+    & .tp-custom-accordion .accordion-items{
+        border: 1px solid rgba(4, 18, 31, 0.08);
+        border-radius: 0;
+    }
+    & .tp-custom-accordion .accordion-buttons:not(.collapsed){
+        border-radius: 0;
+    }
+    & .tp-custom-accordion .collapsed{
+        border-radius: 0;
+    }
+}

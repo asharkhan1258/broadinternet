@@ -1,0 +1,285 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.17 project css start
+/*----------------------------------------*/
+
+.tp-portfolio{
+    &-item{
+        &-wrapper{
+            &:hover{
+                & .tp-portfolio-item-thumb{
+                    & img{
+                        transform: scale(1.05);
+                    }
+                }
+                & .tp-portfolio-item-content {
+                    transform: translateY(-20px);
+                }
+            }
+        }
+        &-thumb{
+            overflow: hidden;
+            & img{
+                transition: all .3s ease-in-out;
+                width: 100%;
+                @media #{$lg,$md,$sm,$xs} {
+                    width: 100%;
+                }
+            }
+        }
+        &-content{
+            background-color: var(--tp-common-white);
+            padding: 35px 25px 32px;
+            filter: drop-shadow(0px 3px 13px rgba(0, 0, 0, 0.078));
+            margin-top: -85px;
+            margin-bottom: 40px;
+            margin-right: 20px;
+            margin-left: 20px;
+            transition: all .3s ease-in-out;
+            @media #{$xl} {
+                padding: 25px 15px 25px;
+            }
+            @media #{$md} {
+                padding: 20px 20px 20px;
+            }
+            &:hover{
+                background-color: var(--tp-theme-1);
+                & .tp-portfolio-item-subtitle{
+                    color: var(--tp-common-white);
+                }
+                & .tp-portfolio-item-title{
+                    color: var(--tp-common-white);
+                }
+            }
+            &-btn{
+                & a{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: var(--tp-theme-2);
+                    &:hover{
+                        & i{
+                            animation: tfLeftToRight 0.5s forwards;
+                        }
+                    }
+                    & i{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        &-subtitle{
+            text-transform: uppercase;
+            color: #969FA5;
+            font-size: 14px;
+            font-weight: 500;
+            transition: .3s;
+        }
+        &-title{
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            @media #{$md} {
+                font-size: 22px;
+            }
+            @media #{$xs} {
+                font-size: 20px;
+            }
+        }
+    }
+    &-details{
+        &-wrapper{
+            margin-bottom: 60px;
+            & p{
+                line-height: 1.95;
+                color: #5C727D;
+                margin-bottom: 40px;
+            }
+        }
+        &-thumb{
+            margin-bottom: 30px;
+            & img{
+                @media #{$lg,$md,$sm,$xs} {
+                    width: 100%;
+                }
+            }
+        }
+        &-meta{
+            @media #{$sm} {
+                margin-bottom: 15px;
+            }
+            &-item{
+                margin-right: 70px;
+                @media #{$lg} {
+                    margin-right: 45px;
+                }
+                @media #{$md,$sm,$xs} {
+                    margin-right: 40px;
+                    margin-bottom: 30px;
+                }
+                & p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.2;
+                    color: #949392;
+                    margin-bottom: 0;
+                }
+            }
+            &-title{
+                font-weight: 600;
+                font-size: 16px;
+                color: var(--tp-common-black);
+            }
+            &-icon{
+                margin-right: 10px;
+            }
+        }
+        &-btn{
+            & a{
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 18px;
+                padding: 14px 55px;
+                text-transform: capitalize;
+                color: var(--tp-common-white);
+                background: var(--tp-theme-1);
+                transition: .3s;
+                @media #{$sm} {
+                    margin-top: 20px;
+                }
+                &:hover{
+                    background: var(--tp-theme-2);
+                    color: var(--tp-common-black);
+                }
+            }
+        }
+        &-title {
+            font-weight: 600;
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: var(--tp-common-black);
+          }
+        &-list{
+            &-title{
+                font-weight: 600;
+                font-size: 28px;
+                margin-bottom: 18px;
+                color: var(--tp-common-black);
+            }
+            & ul{
+                & li{
+                    list-style: none;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    & span{
+                        color: var(--tp-theme-1);
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+        &-info{
+            &-box{
+                background: var(--tp-common-white);
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+                border-radius: 6px;
+                padding: 60px 35px;
+                @media #{$lg} {
+                    padding: 50px 30px;
+                }
+                @media #{$xs} {
+                    padding: 40px 20px;
+                }
+            }
+            &-title{
+                font-family: var(--tp-ff-body);
+                font-weight: 500;
+                font-size: 18px;
+                margin-bottom: 15px;
+                text-transform: capitalize;
+                color: var(--tp-heading-secondary);
+                & span{
+                    margin-right: 12px;
+                }
+            }
+            &-address{
+                border-bottom: 1px solid rgba(21, 19, 19, 0.11);
+                padding-bottom: 18px;
+                margin-bottom: 30px;
+                & p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    color: #696969;
+                    line-height: 1.9;
+                }
+            }
+            &-mail{
+                border-bottom: 1px solid rgba(21, 19, 19, 0.11);
+                padding-bottom: 18px;
+                margin-bottom: 30px;
+                &-content{
+                    & span{
+                        margin-right: 10px;
+                    }
+                }
+                &-text{
+                    & p{
+                        text-transform: capitalize;
+                        color: #696969;
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+            &-open{
+                margin-bottom: 50px;
+                &-icon{
+                    height: 78px;
+                    width: 78px;
+                    text-align: center;
+                    line-height: 78px;
+                    border-radius: 3px;
+                    background-color: var(--tp-theme-1);
+                    margin-right: 15px;
+                }
+                &-content{
+                    & p{
+                        font-size: 14px;
+                        line-height: 18px;
+                        text-transform: capitalize;
+                        color: #696969;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            &-social{
+                & a{
+                    color: var(--tp-common-black);
+                    background: rgba(72, 164, 185, 0.06);
+                    border-radius: 73px;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    display: inline-block;
+                    text-align: center;
+                    margin-right: 20px;
+                    transition: .3s;
+                    @media #{$xl} {
+                        margin-right: 15px;
+                    }
+                    @media #{$lg} {
+                        margin-right: 4px;
+                    }
+                    @media #{$xs} {
+                        margin-right: 10px;
+                    }
+                    &:hover{
+                        color: var(--tp-common-white);
+                        background-color: var(--tp-theme-1);
+                    }
+                }
+            }
+        }
+    }
+}

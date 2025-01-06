@@ -1,0 +1,76 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.8 counter css start
+/*----------------------------------------*/
+
+.tp-counter{
+    &__bg{
+        background-color: var(--tp-theme-1);
+        padding: 45px 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: -60px;
+        position: relative;
+        z-index: 9;
+        padding-bottom: 5px;
+    }
+    &__item{
+        position: relative;
+        z-index: 9;
+        & h5{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+            color: var(--tp-common-white); 
+            padding-bottom: 10px;
+            position: relative;
+            & i{
+                font-style: normal;
+            }
+            & span{
+                height: 25px;
+                width: 25px;
+                background-color: var(--tp-theme-2);
+                display: inline-block;
+                border-radius: 50%;
+                position: absolute;
+                top: -3px;
+                right: 32%;
+                z-index: -1;
+            }
+        }
+        & span{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: var(--tp-common-white);
+        }
+    }
+    &__shape-1{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        & img{
+            opacity: .06;
+        }
+    }
+    &__bdr-right{
+        position: relative;
+        &::after{
+            position: absolute;
+            top: 20px;
+            right: 0;
+            height: 34px;
+            width: 2px;
+            background: rgba(255, 255, 255, 0.13);
+            content: '';
+        }
+        @media #{$xs}{
+            &::after{
+                display: none;
+            }
+        }
+    }
+}

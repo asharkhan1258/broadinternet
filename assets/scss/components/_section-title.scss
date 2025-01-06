@@ -1,0 +1,60 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  2.15 Section Title
+/*----------------------------------------*/
+
+.tp-section-subtitle{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--tp-theme-2);
+    display: inline-block;
+    font-family: var(--tp-ff-mulish);
+    margin-bottom: 15px;
+    &.section-subtitle-border{
+        position: relative;
+        &::after{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            content: '';
+            background-color:rgba(255, 179, 2, 0.38) ;
+
+        }
+    }
+}
+.tp-section-title{
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: capitalize;
+    color: var(--tp-common-black);
+    line-height: 1.3; 
+    display: inline-block;
+    display: inline-block;
+    @media #{$lg}{
+        font-size: 40px;
+    }
+    @media #{$xs}{
+        font-size: 35px;
+    }
+    & span{
+        color: var(--tp-theme-2);
+        & .tp-title-shape{
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            & svg{
+                animation: section-animation 4s infinite;
+            }
+        }
+        & .tp-title-shape-space{
+            position: absolute;
+            bottom: -20px;
+            left: 8px;
+        }
+    } 
+}

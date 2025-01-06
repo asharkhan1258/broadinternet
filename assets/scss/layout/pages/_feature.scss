@@ -1,0 +1,148 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.11 feature css start
+/*----------------------------------------*/
+
+.tp-feature{
+    &__shape-1{
+        position: absolute;
+        top: 55px;
+        left: 55px;
+        animation: animationglob 10s cubic-bezier(1, 0.99, 0.03, 0.01) infinite;
+    }
+    &__shape-2{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    &__shape-3{
+        position: absolute;
+        top: 23%;
+        right: 5%;
+        animation: tptranslateY2 2s forwards infinite alternate;
+        @media #{$lg}{
+            top: 12%;
+        }
+    }
+    &__item{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(4, 4, 4, 0) 0%, rgba(0, 0, 0, 0.43) 100%);
+        }
+        &:hover{
+            & .tp-feature__video-icon{
+                & a{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    &__meta{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    &__content-wrap{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px;
+        @media #{$xxl}{
+            padding: 20px;
+        }
+        @media #{$xl}{
+            padding: 20px;
+        }
+    }
+    &__plr{
+        padding-left: 215px;
+        padding-right: 215px;
+        @media #{$xxl}{
+            padding-left: 85px;
+            padding-right: 85px;
+        }
+        @media #{$xl,$lg,$md,$xs}{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    &__meta{
+        & span{
+            font-weight: 400;
+            font-size: 18px;
+            color: #FFFFFF;
+            opacity: 0.96;
+            margin-left: 15px;
+            & i{
+                color: var(--tp-theme-1);
+                margin-right: 8px;
+            }
+        }
+    }
+    &__title-sm{
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: var(--tp-common-white);
+    }
+    &__info{
+        & span{
+            font-weight: 500;
+            font-size: 20px;
+            text-transform: capitalize;
+            color: var(--tp-theme-1);  
+        }
+    }
+    &__icon{
+        & a{
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: capitalize;
+            color: var(--tp-theme-1);
+        }
+    }
+    &__video-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        & a{
+            height: 58px;
+            width: 58px;
+            line-height: 56px;
+            text-align: center;
+            background-color: var(--tp-theme-1);
+            border-radius: 50%;
+            display:inline-block;
+            position: relative;
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s;
+            & svg{
+                color: var(--tp-common-white);
+                margin-left: 5px;
+            }
+            &::after{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.2);
+                content: '';
+                transform: scale(1.2);
+                border-radius: 50%;
+                animation: pulse 2s infinite;
+            }
+        }
+    }
+}
