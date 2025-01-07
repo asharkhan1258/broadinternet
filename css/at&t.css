@@ -1,0 +1,183 @@
+.p1{
+    font-size: 12px;
+}
+.p2{
+    font-size: 15px;
+}
+.att{
+    background-image: url(..//img/at&t-1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 130px 0px 130px 70px ;
+    
+}
+.h-1{
+    font-size: 45px;
+}
+.atnt-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.atnt-2{
+    width: 67%;
+    background-image: url(..//img/at&t-2.webp);
+    border-radius: 10px;
+    background-size: cover;
+    
+
+}
+
+.atnt-3{
+    width: 30%;
+    background-image: url(..//img/at&t-3.jpg);
+    border-radius: 10px;
+    background-size: cover;
+
+
+}
+.atnt-4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.atnt-5{
+    width: 67%;
+    background-image: url(..//img/at&t-2.webp);
+    border-radius: 10px;
+    background-size: cover;
+    
+
+}
+
+.atnt-6{
+    width: 30%;
+    border-radius: 10px;
+    background-size: cover;
+
+
+}
+.feature{
+    background-image: url(..//img/1820750_card_shuffle_bkgd_dsk.avif);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+}
+.mc-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mc-2{
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 23%;
+}
+.faq {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.faq-title {
+  
+    padding: 10px;
+    cursor: pointer;
+}
+.faq-content {
+    display: none;
+    padding: 10px;
+}
+@media screen and (max-width:992px) {
+    .p1{
+        font-size: 12px;
+    }
+    .att{
+        background-image: url(..//img/at&t-1.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        padding: 130px 0px 130px 70px ;
+        height: 500px;
+    }
+    .atnt-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column  ;
+        justify-content: space-between;
+    }
+    .h-1{
+        font-size: 45px;
+    }
+    .atnt-2{
+        width: 100%;
+        background-image: url(..//img/at&t-2.webp);
+        border-radius: 10px;
+        background-size: cover;
+        
+    
+    }
+    
+    .atnt-3{
+        width: 100%;
+        background-image: url(..//img/at&t-3.jpg);
+        border-radius: 10px;
+        background-size: cover;
+    
+    
+    }
+    .atnt-4{
+        width: 100%;
+        display: flex;
+        flex-direction: column  ;
+        justify-content: space-between;
+    }
+    .atnt-5{
+        width: 100%;
+    
+        border-radius: 10px;
+        background-size: cover;
+        
+    
+    }
+    
+    .atnt-6{
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    
+    
+    }
+    .mc-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-between;
+    }
+    .mc-2{
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: 48%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .att{
+        background-image: url(..//img/at&t-1.jpg);
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 80px 0px 80px 0px ;
+        
+    }
+    .mc-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-between;
+    }
+    .mc-2{
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: 100%;
+    }
+}

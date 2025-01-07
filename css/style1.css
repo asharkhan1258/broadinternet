@@ -1,0 +1,1409 @@
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .up-down-animation {
+    animation: upDown 2s ease-in-out infinite;
+  }
+  
+.img{
+    width: 15%;
+}
+.image-1{
+    width: 13%;
+}
+.para{
+    font-size: 17px;
+}
+.p{
+    font-size: 70px;
+
+}
+.can-2{
+    background-image: url(../images/banner-shape.png);
+    background-repeat: no-repeat;
+}
+.p1{
+    font-size: 18px;
+    color: #343434;
+}
+.h-2{
+    font-size: 45px;
+    width: 60%;
+
+}
+.h-4{
+    font-size: 45px;
+    width: 60%;
+
+}
+.h-5{
+    font-size: 45px;
+    width: 60%;
+
+}
+.h-3{
+    font-size: 45px ;
+    color: black;
+
+}
+.can-3:hover .h-3{
+    color: white;
+}
+
+.can-7:hover .h-3{
+    color: white;
+}
+.can-8:hover .h-3{
+    color: white;
+}
+.can-3{
+    background-color: white;
+    font-size: 16px;
+    width: 50%;
+    color: #343434;
+    
+}
+.can-7{
+    background-color: white;
+    font-size: 16px;
+    width: 50%;
+    color: #343434;
+    
+}.can-8{
+    background-color: white;
+    font-size: 16px;
+    width: 33%;
+    color: #343434;
+    
+}
+.p2{
+    color:rgb(248, 72, 72);
+}
+.can-3:hover .p2{
+    color:white;
+}
+.can-3:hover{
+    background-color: black;
+    color: white;
+}
+.can-7:hover .p2{
+    color:white;
+}
+.can-7:hover{
+    background-color: black;
+    color: white;
+}.can-8:hover .p2{
+    color:white;
+}
+.can-8:hover{
+    background-color: black;
+    color: white;
+}
+.main{
+    width: 100%;
+}
+.row-1{
+    width:100%;
+}
+.row-2{
+    width: 66%;
+}
+.can-4{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    
+}
+.can-5{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    
+}
+.can-6{
+    background-color: white;
+    border-radius: 20px;
+    width: 33%;
+    
+}
+.can-4:hover{
+    background-color: red;
+    border-radius: 20px;
+    width: 50%;
+    color: white;
+    
+}
+.can-5:hover{
+    background-color: red;
+    border-radius: 20px;
+    width: 50%;
+    color: white;
+    
+}
+.can-6:hover{
+    background-color: red;
+    border-radius: 20px;
+    width: 33%;
+    color: white;
+    
+}
+.p-1{
+    font-size: 16px;
+}
+.link{
+    background-color: #d52b1e;
+    color: white;
+
+}
+.link:hover{
+    background-color: white;
+    color: #343434;
+    
+}
+.link1{
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+}
+
+.link1:hover{
+    background-color: #343434;
+    color: white;
+
+}
+.heading{
+    font-size: 45px;
+    width: 80%;
+
+}
+.check{
+    border:  1px solid red;
+    color: red;
+    
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.check-1:hover .check{
+    border:  1px solid red;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}
+.p-text{
+    color: #343434;
+}
+.p1-text{
+    font-size: 20px;
+    color: #343434;
+}
+.img-1{
+    margin-left: -500px;
+}
+
+.heading1{
+    font-size: 45px;
+    width: 90%;
+
+}
+.man{
+    width: 100%;
+}
+.man2{
+    width: 100%;
+}
+.check-2{
+    width: 50%;
+}
+.check-2:hover .check{
+    border:  1px solid red;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+}
+.image{
+    width: 100%;
+    height: 500px ;
+    border-radius: 100%;
+}
+.man-3{
+    background-image: url(.././img/video-one-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5;     */
+    background-color:  var(--twonet-secondary);
+}
+.boll{
+    background-color: #d52b1e;
+    border-radius: 100%;
+    padding: 100px 0px 100px 0px ;
+    margin-left: -20px;
+
+}
+.text-1{
+    font-size: 50px; line-height: 55px;
+}
+.row-4{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: #f9f9fc;
+    border: 1px solid #f9f9fc;
+    width: 32%;
+    border-radius: 10px;
+}
+.card1:hover{
+    background-color: white;
+    border: 1px solid red;
+    width: 32%;
+    border-radius: 10px;
+}
+.p-1{
+    font-size: 20px;
+}
+    
+.cards-1{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+}
+.cards-2{
+    width: 32%;
+    
+}
+.m1{
+    border-right: 3px  dotted ; 
+    
+}
+.cardman{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardman1{
+    width: 48%; 
+    border-radius: 5px;
+}
+.img-man{
+    margin-left:-125px ;
+}
+.para{
+    color: black;
+    font-size: 16px;
+}
+.att{
+    width: 60%;
+}
+.para1{
+    font-size: 13px;
+    width: 80%;
+}
+.para2{
+    font-size: 13px;
+    width: 90%;
+}
+.para3{
+    font-size: 10px;
+    width: 100%;
+}
+.atprice{
+    color: black;
+}
+.atprice-1 h1{
+    font-size: 60px;
+    color: rgb(59, 59, 248);
+}
+
+.atprice b{
+    font-size: 20px;
+    color: black;
+}
+.img-att{
+    width: 25%;
+}
+.img-att-1{
+    width: 100%; 
+    height: 700px;
+}
+@media screen and (max-width:1200px) {
+    .att{
+        width: 70%;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .para{
+        color: black;
+        font-size: 13px;
+    }
+    .img{
+        width: 17%;
+    }
+    .image-1{
+        width: 15%;
+    }
+    
+    .can-1{
+        margin-top: 70px;
+    }
+    .p{
+    font-size: 65px;
+    width: 70%;
+    } 
+    .img-1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .heading{
+        font-size: 45px;
+        width: 70%;
+    
+    }
+    .check{
+        border:  1px solid red;
+        color: red;
+        
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    
+    .check-1:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .p-text{
+        color: #343434;
+    }
+   
+    .p1-text{
+        font-size: 20px;
+        color: #343434;
+    }
+   
+    
+    .heading1{
+        font-size: 45px;
+        width: 40%;
+    
+    }
+    .man{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+
+    }
+    .man2{
+        width: 100%;
+    }
+    .check-2{
+        width: 50%;
+    }
+    .check-2:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 80%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .boll{
+        background-color: #d52b1e;
+        border-radius: 100%;
+        padding: 100px 0px 50px 0px ;
+        margin-left: 0px;
+    
+    }
+    .text-1{
+        font-size: 55px; 
+        width: 80%;
+        line-height: 55px;
+    }
+    .row-4{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-color: #f9f9fc;
+        width: 48%;
+        border-radius: 10px;
+    }
+    .card1:hover{
+        background-color: white;
+        border: 1px solid red;
+        width: 48%;
+        border-radius: 10px;
+    }
+    .p-1{
+        font-size: 20px;
+    }
+    .h-5{
+        font-size: 45px;
+        width: 50%;
+    
+    }
+}
+
+@media screen and (max-width:992px) {
+    .att{
+        width: 90%;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .img-att{
+        width: 30%;
+    }
+    .img-att-1{
+        width: 100%; 
+        height: auto;
+    }
+    .service{
+        background-color: #eee;
+    }
+ 
+.cards-1{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards-2{
+    width: 100%;
+    
+}
+    .img{
+        width: 18%;
+    }  
+    .image-1{
+        width: 16%;
+    }
+     
+    .p{
+        font-size: 55px;
+        width: 80%;
+        } 
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    .p1{
+        font-size: 18px;
+        color: #343434;
+    }
+    .h-2{
+        font-size: 40px;
+        width: 80%;
+    
+    }
+    .h-4{
+        font-size: 40px;
+        width: 100%;
+    
+    }
+    .h-3{
+        font-size: 45px ;
+    
+    }
+    .can-3{
+        background-color: white;
+        font-size: 16px;
+        width: 50%;
+        color: #343434;
+        
+    }
+    .can-7{
+        background-color: white;
+        font-size: 16px;
+        width: 50%;
+        color: #343434;
+        
+    }.can-8{
+        background-color: white;
+        font-size: 16px;
+        width: 50%;
+        color: #343434;
+        
+    }
+    .p2{
+        color:rgb(248, 72, 72);
+    }
+   
+    .main{
+        width: 100%;
+    }
+    .row-1{
+        width:100%;
+    }
+    .row-2{
+        width: 100%;
+    }
+    .can-4{
+        background-color: white;
+        border-radius: 20px;
+        width: 50%;
+        
+    }
+    .can-5{
+        background-color: white;
+        border-radius: 20px;
+        width: 50%;
+        
+    }
+    .can-6{
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        
+    }
+    .can-4:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 50%;
+        color: white;
+        
+    }
+    .can-5:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 50%;
+        color: white;
+        
+    }
+    .can-6:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 100%;
+        color: white;
+        
+    }
+    .p-1{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 40px;
+        width: 100%;
+    
+    }
+    .check{
+        border:  1px solid red;
+        color: red;
+        
+        padding: 10px;
+        border-radius: 50%;
+    }
+    
+    
+    .check-1:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .p-text{
+        color: #343434;
+    }
+   
+    .p1-text{
+        font-size: 16px;
+        color: #343434;
+    }
+   
+    
+    .heading1{
+        font-size: 40px;
+        width: 90%;
+    
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .man{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+
+    }
+    .man2{
+        width: 100%;
+    }
+    .check-2{
+        width: 50%;
+    }
+    .check-2:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .boll{
+        background-color: #d52b1e;
+        border-radius: 100%;
+        padding: 100px 0px 50px 0px ;
+        margin-left: 20px;
+    
+    }
+    .text-1{
+        font-size: 50px;
+        width: 80%;
+         line-height: 55px;
+    }
+    .row-4{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-color: #f9f9fc;
+        width: 48%;
+        border-radius: 10px;
+    }
+    .card1:hover{
+        background-color: white;
+        border: 1px solid red;
+        width: 48%;
+        border-radius: 10px;
+    }
+    .p-1{
+        font-size: 20px;
+    }
+    .h-5{
+        font-size: 45px;
+        width: 90%;
+    
+    }
+}
+
+@media screen and (max-width:768px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 350px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .cardman{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cardman1{
+        width: 100%; 
+        border-radius: 5px;
+    }
+    .m1{
+        border-right: 0px  dotted ; 
+        border-bottom: 3px  dotted ; 
+    }
+    .img{
+        width: 170px;
+    }
+    .image-1{
+        width: 130px;
+    }
+    
+    .can-1{
+        margin-top: 50px;
+    }
+    .p{
+    font-size: 45px;
+    width: 95%;
+    } 
+    
+    .p1{
+        font-size: 16px;
+        color: #343434;
+    }
+    .h-2{
+        font-size: 35px;
+        width: 80%;
+    
+    }
+    .h-4{
+        font-size: 30px;
+        width: 80%;
+    
+    }
+    .h-3{
+        font-size: 45px ;
+    
+    }
+    .can-3{
+        background-color: white;
+        font-size: 16px;
+        width: 75%;
+        color: #343434;
+        
+    }
+    .can-7{
+        background-color: white;
+        font-size: 16px;
+        width: 75%;
+        color: #343434;
+        
+    }.can-8{
+        background-color: white;
+        font-size: 16px;
+        width: 75%;
+        color: #343434;
+        
+    }
+    .p2{
+        color:rgb(248, 72, 72);
+    }
+   
+    .main{
+        width: 100%;
+    }
+
+    .row-1{
+        width:100%;
+    }
+    .row-2{
+        width: 100%;
+    }
+    .can-4{
+        background-color: white;
+        border-radius: 20px;
+        width: 75%;
+        margin: auto;
+        
+    }
+    .can-5{
+        background-color: white;
+        border-radius: 20px;
+        width: 75%;
+        margin: auto;
+        
+    }
+    .can-6{
+        background-color: white;
+        border-radius: 20px;
+        width: 75%;
+        margin: auto;
+        
+    }
+    .can-4:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 75%;
+        color: white;
+        
+    }
+    .can-5:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 75%;
+        color: white;
+        
+    }
+    .can-6:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 75%;
+        margin: auto;
+        color: white;
+        
+    }
+    .p-1{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 30px;
+        width: 100%;
+    
+    }
+    .check{
+        border:  1px solid red;
+        color: red;
+        
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    
+    .check-1:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .p-text{
+        color: #343434;
+    }
+    .img-1{
+        width: 100%;
+    }
+    
+   
+    .p1-text{
+        font-size: 14px;
+        color: #343434;
+    }
+   
+    
+    .heading1{
+        font-size: 30px;
+        width: 95%;
+    
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .man{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        height: auto;
+
+    }
+    .man2{
+        width: 100%;
+    }
+    .check-2{
+        width: 50%;
+    }
+    .check-2:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .boll{
+        background-color: #d52b1e;
+        border-radius: 100%;
+        padding: 50px 0px 50px 0px ;
+        margin-left: 20px;
+    
+    }
+    .text-1{
+        font-size: 37px;
+        width: 90%;
+         line-height: 55px;
+    }
+    .row-4{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-color: #f9f9fc;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card1:hover{
+        background-color: white;
+        border: 1px solid red;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .p-1{
+        font-size: 20px;
+    }
+    .h-5{
+        font-size: 35px;
+        width: 90%;
+    
+    }
+}
+
+@media screen and (max-width:576px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 350px;
+        font-size: 15px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    .img-att{
+        width: 50%;
+
+    }
+.cards-1{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards-2{
+    margin: auto;
+    width: 90%;
+    
+}
+
+    .img{
+        width: 100px;
+    }
+    .can-1{
+        margin-top: 0px;
+    }
+    .p{
+    font-size: 38px;
+    width: 95%;
+    } 
+    .p1{
+        font-size: 14px;
+        color: #343434;
+    }
+    .h-2{
+        font-size: 25px;
+        width: 80%;
+    
+    }.h-4{
+        font-size: 25px;
+        width: 100%;
+    
+    }
+    .h-3{
+        font-size: 45px ;
+    
+    }
+    .can-3{
+        background-color: white;
+        font-size: 16px;
+        width: 100%;
+        color: #343434;
+        
+    }
+    .can-7{
+        background-color: white;
+        font-size: 16px;
+        width: 100%;
+        color: #343434;
+        
+    }.can-8{
+        background-color: white;
+        font-size: 16px;
+        width: 100%;
+        color: #343434;
+        
+    }
+    .p2{
+        color:rgb(248, 72, 72);
+    }
+   
+    .main{
+        width: 100%;
+    }
+    .row-1{
+        width:100%;
+    }
+    .row-2{
+        width: 100%;
+    }
+    .can-4{
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        margin: auto;
+        
+    }
+    .can-5{
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        margin: auto;
+        
+    }
+    .can-6{
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        margin: auto;
+        
+    }
+    .can-4:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 100%;
+        color: white;
+        
+    }
+    .can-5:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 100%;
+        color: white;
+        
+    }
+    .can-6:hover{
+        background-color: red;
+        border-radius: 20px;
+        width: 100%;
+        margin: auto;
+        color: white;
+        
+    }
+    .p-1{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 25px;
+        width: 100%;
+    
+    }
+    .check{
+        border:  1px solid red;
+        color: red;
+        
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    
+    .check-1:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .p-text{
+        color: #343434;
+    }
+   
+   
+    .p1-text{
+        font-size: 12px;
+        color: #343434;
+    }
+   
+    
+    .heading1{
+        font-size: 25px;
+        width: 100%;
+    
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .man{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+
+    }
+    .man2{
+        width: 100%;
+    }
+    .check-2{
+        width: 50%;
+    }
+    .check-2:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .boll{
+        background-color: #d52b1e;
+        border-radius: 100%;
+        padding: 50px 0px 20px 0px ;
+        margin-left: 5px;
+    
+    }
+    .text-1{
+        font-size: 30px;
+        width: 100%;
+         line-height: 55px;
+    }
+    .row-4{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-color: #f9f9fc;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card1:hover{
+        background-color: white;
+        border: 1px solid red;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .p-1{
+        font-size: 20px;
+    }
+    .h-5{
+        font-size: 30px;
+        width: 100%;
+    
+    }
+}
+@media screen and (max-width:480px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 300px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    .img-att{
+        width: 60%;
+    }
+    .img{
+        width: 100px;
+    }
+    .can-1{
+        margin-top: 0px;
+    }
+    .p{
+    font-size: 27px;
+    width: 100%;
+    } 
+    .p1{
+        font-size: 16px;
+        color: #343434;
+    }
+    .h-2{
+        font-size: 25px;
+        width: 70%;
+    
+    }
+    .h-3{
+        font-size: 45px ;
+    
+    }
+    .can-3{
+        background-color: white;
+        font-size: 16px;
+        color: #343434;
+    }
+    .p2{
+        color:rgb(248, 72, 72);
+    }
+    .can-3:hover .p2{
+        color:white;
+    }
+    .can-3:hover{
+        background-color: black;
+        color: white;
+    }
+    .main{
+        width: 100%;
+    }
+    .heading{
+        font-size: 30px;
+        width: 80%;
+    
+    }
+    .check{
+        border:  1px solid red;
+        color: red;
+        
+        padding: 10px;
+        border-radius: 50%;
+    }
+    
+    
+    .check-1:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .p-text{
+        color: #343434;
+    }
+ 
+   
+    .p1-text{
+        font-size: 12px;
+        color: #343434;
+    }
+   
+    
+    .heading1{
+        font-size: 25px;
+        width: 95%;
+    
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .man{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .man2{
+        width: 100%;
+    }
+    .check-2{
+        width: 50%;
+    }
+    .check-2:hover .check{
+        border:  1px solid red;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        border-radius: 100%;
+    }
+    .row-4{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-color: #f9f9fc;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card1:hover{
+        background-color: white;
+        border: 1px solid red;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .p-1{
+        font-size: 16px;
+    }
+    .h-5{
+        font-size: 25px;
+        width: 100%;
+    
+    }
+}
+.faq-answer {
+    display: none; /* Hidden by default */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.faq-question:hover {
+    background-color: #e9ecef;
+}

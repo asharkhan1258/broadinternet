@@ -1,0 +1,291 @@
+.link{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.link1{
+    color: black;;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link1:hover{
+    color: black;;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.main{
+    background-image: url(./images/internet-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.heading{
+    font-size: 50px;
+}
+.button{
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid rgb(127, 65, 243);
+    color: rgb(127, 65, 243);
+
+}
+.button:hover{
+    background-color: rgb(127, 65, 243) ;
+    border-radius: 50px;
+    border: 2px solid rgb(127, 65, 243);
+    color: white;
+
+}
+.button2{
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid  rgb(67, 143, 67);
+    color:  rgb(67, 143, 67);
+
+}
+.button2:hover{
+    background-color:  rgb(67, 143, 67) ;
+    border-radius: 50px;
+    border: 2px solid  rgb(67, 143, 67);
+    color: white;
+
+}
+.p1{
+    color: white;
+    font-size: 13px;
+    
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 30%;
+}
+
+.can{
+    background-color:  rgb(67, 143, 67);
+    
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 70%;
+    margin: auto;
+}
+.button3{
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: black;
+}
+.button3:hover{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    
+}
+.card-1{
+    width: 47%;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line-1{
+    width: 25%;
+}
+.line-2{
+    width: 65%;
+}
+@media screen and (max-width:786px){
+    .link{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .link1{
+        color: black;;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .link1:hover{
+        color: black;;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .main{
+        background-image: url(./images/internet-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .button{
+        background-color: white;
+        border-radius: 50px;
+        border: 2px solid rgb(127, 65, 243);
+        color: rgb(127, 65, 243);
+    
+    }
+    .button:hover{
+        background-color: rgb(127, 65, 243) ;
+        border-radius: 50px;
+        border: 2px solid rgb(127, 65, 243);
+        color: white;
+    
+    }
+    .button2{
+        background-color: white;
+        border-radius: 50px;
+        border: 2px solid  rgb(67, 143, 67);
+        color:  rgb(67, 143, 67);
+    
+    }
+    .button2:hover{
+        background-color:  rgb(67, 143, 67) ;
+        border-radius: 50px;
+        border: 2px solid  rgb(67, 143, 67);
+        color: white;
+    
+    }
+    .can{
+        background-color:  rgb(67, 143, 67);
+        
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 100%;
+        margin: auto;
+    }
+    .p1{
+        color: white;
+        font-size: 13px;
+        
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .row-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.line-1{
+    width: 50%;
+}
+.line-2{
+    width: 100%;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-1{
+    width: 100%;
+}
+}
+
+@media screen and (max-width:500px){
+    .link{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .link1{
+        color: black;;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .link1:hover{
+        color: black;;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .main{
+        background-image: url(./images/internet-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .button{
+        background-color: white;
+        border-radius: 50px;
+        border: 2px solid rgb(127, 65, 243);
+        color: rgb(127, 65, 243);
+    
+    }
+    .button:hover{
+        background-color: rgb(127, 65, 243) ;
+        border-radius: 50px;
+        border: 2px solid rgb(127, 65, 243);
+        color: white;
+    
+    }
+    .button2{
+        background-color: white;
+        border-radius: 50px;
+        border: 2px solid  rgb(67, 143, 67);
+        color:  rgb(67, 143, 67);
+    
+    }
+    .button2:hover{
+        background-color:  rgb(67, 143, 67) ;
+        border-radius: 50px;
+        border: 2px solid  rgb(67, 143, 67);
+        color: white;
+    
+    }
+    .p1{
+        color: white;
+        font-size: 13px;
+        
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 80%;
+    }
+}

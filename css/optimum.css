@@ -1,0 +1,234 @@
+.optimum-p1{
+    font-size: 14px;
+    color: black;
+}
+.optimum-div{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.optimum-div-a{
+    background-color: #717171;
+    
+    border-radius: 50px;
+}
+.optimum-div-a1{
+    background-color: orangered;
+    
+    border-radius: 50px;
+}
+.optimum-div-a a{
+ color: white;
+ font-size: 20px;
+}
+.optimum-h1{
+    font-size: 35px;
+}
+.optimum-p2{
+    font-size: 23px;
+    color: black;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -170px;
+
+}
+.card-1{
+    width: 32%;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.card-2{
+    width: 32%;
+    background-image: url(/img/optimum/Whole_Home_WiFi.png);
+    height: 612px;
+}
+.card-3{
+    width: 32%;
+    background-image: url(/img/optimum/Unbeatable_2x.png);
+    background-size: cover;
+    height: 612px;
+}
+.card-4{
+    width: 32%;
+    background-image: url(/img/optimum/Award-winning\ Internet.jpg);
+    background-size: cover;
+    height: 612px;
+}
+
+.row-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.card-5{
+    width: 27%;
+    height: 612px;
+}
+.card-6{
+    width: 42%;
+    background-image: url(/img/optimum/Next-gen_Desktop_2x.png);
+    background-size: cover;
+    
+}
+.card-7{
+    width: 27%;
+    background-size: cover;
+    height: 612px;
+}
+.faq-answer {
+    display: none; /* Hidden by default */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.faq-question:hover {
+    background-color: #e9ecef;
+}
+.img{
+    width: 30%;
+
+}
+.brand{
+    width: 360px;
+}
+
+@media screen and (max-width: 768px) {
+    .optimum-p1{
+        font-size: 14px;
+        color: black;
+    }
+    .optimum-div{
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+    .optimum-div-a{
+        background-color: #717171;
+        
+        border-radius: 50px;
+    }
+    .optimum-div-a1{
+        background-color: orangered;
+        
+        border-radius: 50px;
+    }
+    .optimum-div-a a{
+     color: white;
+     font-size: 20px;
+    }
+    .optimum-h1{
+        font-size: 35px;
+    }
+    .optimum-p2{
+        font-size: 23px;
+        color: black;
+    }
+    .row-1{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -170px;
+    
+    }
+    .card-1{
+        width: 100%;
+    }
+    
+    .row-2{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    
+    }
+    .card-2{
+        width: 55%;
+        background-image: url(/img/optimum/Whole_Home_WiFi.png);
+        height: 612px;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+    }
+    .card-3{
+        width: 55%;
+        background-image: url(/img/optimum/Unbeatable_2x.png);
+        background-size: cover;
+        height: 612px;
+        background-repeat: no-repeat;
+
+    }
+    .card-4{
+        width: 55%;
+        background-image: url(/img/optimum/Award-winning\ Internet.jpg);
+        background-size: cover;
+        height: 612px;
+        background-repeat: no-repeat;
+
+    }
+    
+    .row-3{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    
+    }
+    .card-5{
+        width: 100%;
+        
+    }
+    .card-6{
+        width: 100%;
+        background-image: url(/img/optimum/Next-gen_Desktop_2x.png);
+        background-size: cover;
+        height: 700px;
+        
+    }
+    .brand{
+        width: 360px;
+    }
+    .card-7{
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .faq-answer {
+        display: none; /* Hidden by default */
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+    }
+    
+    .faq-question {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        margin-top: 10px;
+    }
+    
+    .faq-question:hover {
+        background-color: #e9ecef;
+    }
+    .img{
+        width: 20%;
+    }
+}
