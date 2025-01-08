@@ -7598,14 +7598,14 @@ body .ui-tooltip {
   position: absolute;
   bottom: 0%;
   left: 0%;
-  animation: animationglob 30s cubic-bezier(1, 0.99, 0.03, 0.01) infinite;
+  /* animation: animationglob 30s cubic-bezier(1, 0.99, 0.03, 0.01) infinite; */
 }
 .tp-hero__shape-3 {
   position: absolute;
   bottom: 20%;
   right: 20%;
-  -webkit-animation: movingleftright1 infinite 20000ms;
-  animation: movingleftright1 infinite 20000ms;
+  /* -webkit-animation: movingleftright1 infinite 20000ms;
+      animation: movingleftright1 infinite 20000ms; */
 }
 .tp-hero__slider-active button {
   color: var(--tp-common-white);
