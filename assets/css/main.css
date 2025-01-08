@@ -7377,7 +7377,7 @@ body .ui-tooltip {
   background-color: var(--tp-theme-2);
   content: "";
 }
-
+/* 
 .slick-active .tp-hero__subtitle {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
@@ -7415,6 +7415,8 @@ body .ui-tooltip {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+*/
 
 .tp-hero__mt {
   margin-top: -50px;
@@ -7589,8 +7591,8 @@ body .ui-tooltip {
   position: absolute;
   top: 13%;
   right: 5%;
-  animation: tpswing 1s forwards infinite alternate;
-  transform-origin: bottom left;
+  /* animation: tpswing 1s forwards infinite alternate;
+      transform-origin: bottom left; */
 }
 .tp-hero__shape-2 {
   position: absolute;
