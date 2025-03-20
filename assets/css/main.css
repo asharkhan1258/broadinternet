@@ -4992,7 +4992,7 @@ body .ui-tooltip {
   background-color: var(--tp-common-white);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
-  z-index: 999;
+  z-index: 900;
 }
 .header-sticky .tp-header-main__menu-bg {
   width: 100%;
