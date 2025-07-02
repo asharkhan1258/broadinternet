@@ -8138,6 +8138,11 @@ body .ui-tooltip {
   text-transform: capitalize;
   color: var(--tp-common-black);
 }
+.tp-service__title-sm p{
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-service__title-sm {
     font-size: 17px;
