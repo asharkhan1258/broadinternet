@@ -59,26 +59,35 @@
 
 <body>
   <section class="banner">
-
-    <a href='tel:+18883035819'>
-      <div class="overlay">
-        <div class="popup">
-          <div class="popupHeader" style="background-color: #003057">
-            <p style="margin-top: 20px; color: white;font-size: xx-large;">+1(888) 303-5819</p>
-          </div>
-          <div class="popupContent">
-            <img loading="lazy" src="./img/spectrum-img/spectrum-logo-removebg-preview.png" alt="Logo" class="logo" />
-            <h2 class="popupheading" style="font-size: 34px;">
-              Call to Pay Your Bill <br />
-              Now
-            </h2>
-            <p class="phoneNumber" style="background-color: #003057">+1(888) 303-5819</p>
-          </div>
-          <div class="popupFooter" style="background-color: #003057">Call Now +1(888) 303-5819</div>
-        </div>
+  <div class="overlay" id="popupOverlay">
+    <div class="popup">
+      <div class="popupHeader" style="background-color: #003057; position: relative;">
+        <a href="tel:+188830305819">+1(888) 303-5819</a>
+        <!-- Close Button -->
+        <span class="closePopup" onclick="closePopup()" style="
+          position: absolute;
+          right: 10px;
+          top: 5px;
+          font-size: 24px;
+          color: white;
+          cursor: pointer;
+        ">&times;</span>
       </div>
-    </a>
-  </section>
+      <div class="popupContent">
+        <img loading="lazy" src="./img/spectrum-img/spectrum-logo-removebg-preview.png" alt="Logo" class="logo" />
+        <h2 class="popupheading">
+          Call to Pay Your Bill <br />
+          Now
+        </h2>
+        <a href="tel:+188830305819" class="phoneNumber" style="background-color: #003057">+1(888) 303-5819</a>
+      </div>
+      <a href="tel:+188830305819" class="popupFooter" style="background-color: #003057">
+        Call Now +1(888) 303-5819
+      </a>
+    </div>
+  </div>
+</section>
+
   <!-- tp-offcanvus-area-start -->
   <div class="tpoffcanvas-area">
     <div class="tpoffcanvas">

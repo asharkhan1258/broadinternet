@@ -35,26 +35,34 @@
 </head>
 <body>
    <section class="banner">
-
-    <a href='tel:+18664681291'>
-      <div class="overlay">
-        <div class="popup">
-          <div class="popupHeader" style="background-color: black">
-            <p style="margin-top: 20px; color: white;font-size: xx-large;">+1 866 468 1291</p>
-          </div>
-          <div class="popupContent">
-            <img loading="lazy" src="./images/xfinity-authorized-retailer.png" alt="Logo" class="logo bg-black" />
-            <h2 class="popupheading" style="font-size: 34px;">
-              Call to Pay Your Bill <br />
-              Now
-            </h2>
-            <p class="phoneNumber" style="background-color: black">+1 866 468 1291</p>
-          </div>
-          <div class="popupFooter" style="background-color: black">Call Now +1 866 468 1291</div>
-        </div>
+  <div class="overlay" id="popupOverlay">
+    <div class="popup">
+      <div class="popupHeader" style="background-color: black; position: relative;">
+        <a href="tel:+18664681291">+1 866 468 1291</a>
+        <!-- Close Button -->
+        <span class="closePopup" onclick="closePopup()" style="
+          position: absolute;
+          right: 10px;
+          top: 5px;
+          font-size: 24px;
+          color: white;
+          cursor: pointer;
+        ">&times;</span>
       </div>
-    </a>
-  </section>
+      <div class="popupContent">
+        <img loading="lazy" src="./images/xfinity-authorized-retailer.png" alt="Logo" class="logo bg-black" />
+        <h2 class="popupheading">
+          Call to Pay Your Bill <br />
+          Now
+        </h2>
+        <a href="tel:+18664681291" class="phoneNumber" style="background-color: black">+1 866 468 1291</a>
+      </div>
+      <a href="tel:+18664681291" class="popupFooter" style="background-color: black">
+        Call Now +1 866 468 1291
+      </a>
+    </div>
+  </div>
+</section>
    
       <!-- <a href='tel:+18884278119'>
          <div class="popup" style="position: fixed;height: fit-content !important;bottom: 0;">
