@@ -42,7 +42,7 @@
   <link href="css/style.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="css/at&t.css"> -->
   <link rel="stylesheet" href="./css/spectrum.css">
-  <link rel="stylesheet" href="./css/popop.css">
+  <!-- <link rel="stylesheet" href="./css/popop.css"> -->
   <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo/favicon.png">
 
   <!-- CSS here -->
@@ -56,36 +56,157 @@
   <link rel="stylesheet" href="../assets/css/custom-animation.css">
   <link rel="stylesheet" href="../assets/css/main.css">
 </head>
+<style>
+
+  .banner .overlay {
+  cursor: pointer;
+}
+.banner{
+  display: none;
+}
+.popup {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+  background-color: #fff;
+}
+.popupHeader {
+  background-color: #bf1111;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */
+  width: 100%;
+  padding: 20px 0;}
+
+  .popupContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.logo {
+  width: 325px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.popupheading {
+  text-align: center;
+  font-weight: 750;
+  
+  color: #050505cb;
+  margin: 24px 0px;
+  
+}
+
+.phoneNumber {
+  /* font-weight: bold; */
+  background-color: #bf1111;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+
+  border-radius: 6px;
+  font-size: 25px;
+  
+}
+
+.popupFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+  background-color: #bf1111;
+  color: #f0f0f0;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .banner{
+    display: block;
+  }
+  .popup {
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-between;
+  }
+  .popupHeader p {
+    font-size: 20px;}
+     .popupFooter {
+    font-size: 25px;
+    height: 12vh;}
+
+     }
+
+     @media only screen and (min-width: 768px) {
+  .popup {
+    top: 5vh;
+    left: 5vw;
+    width: 22vw;
+    padding-top: 3vw;
+    height: fit-content;
+    border-radius: 6px;
+  }
+  .popupFooter {
+    font-size: 20px;
+    height: 8vh;
+    }
+  .popupheading {
+    font-size: 22px;
+  }
+  .phoneNumber {
+    min-width: 80%;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .banner{
+    display: block;
+  }
+  .popupheading {
+    font-size: 34px !important;
+  }
+  .popupFooter {
+    font-size: 1.1rem;
+    height: 10vh;
+  }
+  .phoneNumber {
+    width: 80vw;
+    padding: 18px;
+    font-size: 16px;
+  }
+}
+</style>
 
 <body>
   <section class="banner">
-  <div class="overlay" id="popupOverlay">
-    <div class="popup">
-      <div class="popupHeader" style="background-color: #003057; position: relative;">
-        <a href="tel:+188830305819">+1(888) 303-5819</a>
-        <!-- Close Button -->
-        <span class="closePopup" onclick="closePopup()" style="
-          position: absolute;
-          right: 10px;
-          top: 5px;
-          font-size: 24px;
-          color: white;
-          cursor: pointer;
-        ">&times;</span>
-      </div>
-      <div class="popupContent">
-        <img loading="lazy" src="./img/spectrum-img/spectrum-logo-removebg-preview.png" alt="Logo" class="logo" />
-        <h2 class="popupheading">
-          Call to Pay Your Bill <br />
-          Now
-        </h2>
-        <a href="tel:+188830305819" class="phoneNumber" style="background-color: #003057">+1(888) 303-5819</a>
-      </div>
-      <a href="tel:+188830305819" class="popupFooter" style="background-color: #003057">
-        Call Now +1(888) 303-5819
-      </a>
-    </div>
-  </div>
+     <a href='tel:+18883035819'>
+      <div class="overlay">
+        <div class="popup">
+          <div class="popupHeader" style="background-color: #003057">
+            <p style="margin-top: 20px; color: white;font-size: xx-large;">+1(888) 303-5819</p>
+          </div>
+          <div class="popupContent">
+            <img loading="lazy" src="./img/spectrum-img/spectrum-logo-removebg-preview.png" alt="Logo" class="logo" />
+            <h2 class="popupheading" style="font-size: 34px;">
+              Call to Pay Your Bill <br />
+              Now
+            </h2>
+            <p class="phoneNumber" style="background-color: #003057">+1(888) 303-5819</p>
+          </div>
+          <div class="popupFooter" style="background-color: #003057">Call Now +1(888) 303-5819</div>
+        </div>
+         </div>
+    </a>
 </section>
 
   <!-- tp-offcanvus-area-start -->
