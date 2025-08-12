@@ -1,0 +1,107 @@
+# Allow only trusted search engine bots to crawl the listed pages
+
+User-agent: Googlebot
+Allow: /$
+Allow: /about/
+Allow: /services/broadband/
+Allow: /services/satellite-tv/
+Allow: /services/home-phone/
+Allow: /services/office-internet/
+Allow: /services/business-pack/
+Allow: /providers/xfinity/
+Allow: /providers/att/
+Allow: /providers/optimum/
+Allow: /providers/spectrum/
+Allow: /contact/
+Allow: /privacy-policy/
+Allow: /terms-conditions/
+Allow: /disclaimer/
+
+User-agent: Bingbot
+Allow: /$
+Allow: /about/
+Allow: /services/broadband/
+Allow: /services/satellite-tv/
+Allow: /services/home-phone/
+Allow: /services/office-internet/
+Allow: /services/business-pack/
+Allow: /providers/xfinity/
+Allow: /providers/att/
+Allow: /providers/optimum/
+Allow: /providers/spectrum/
+Allow: /contact/
+Allow: /privacy-policy/
+Allow: /terms-conditions/
+Allow: /disclaimer/
+
+User-agent: Slurp
+Allow: /$
+Allow: /about/
+Allow: /services/broadband/
+Allow: /services/satellite-tv/
+Allow: /services/home-phone/
+Allow: /services/office-internet/
+Allow: /services/business-pack/
+Allow: /providers/xfinity/
+Allow: /providers/att/
+Allow: /providers/optimum/
+Allow: /providers/spectrum/
+Allow: /contact/
+Allow: /privacy-policy/
+Allow: /terms-conditions/
+Allow: /disclaimer/
+
+User-agent: DuckDuckBot
+Allow: /$
+Allow: /about/
+Allow: /services/broadband/
+Allow: /services/satellite-tv/
+Allow: /services/home-phone/
+Allow: /services/office-internet/
+Allow: /services/business-pack/
+Allow: /providers/xfinity/
+Allow: /providers/att/
+Allow: /providers/optimum/
+Allow: /providers/spectrum/
+Allow: /contact/
+Allow: /privacy-policy/
+Allow: /terms-conditions/
+Allow: /disclaimer/
+
+# Block known spam, scraping, and unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+# Default: block all other unknown bots
+User-agent: *
+Disallow: /
+
+# Sitemap location
+Sitemap: https://broadinternet.us/sitemap.xml
